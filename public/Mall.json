@@ -1,0 +1,14 @@
+[
+  { "slotId": "1", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "2", "status": "occupied", "vehicleNumber": "ML-01-AA-1234", "ownerName": "Ethan Moore", "date": "2025-12-18", "entryTime": "10:00", "exitTime": "12:00" },
+  { "slotId": "3", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "4", "status": "occupied", "vehicleNumber": "ML-02-BB-5678", "ownerName": "Isabella Taylor", "date": "2025-12-18", "entryTime": "11:00", "exitTime": "13:00" },
+  { "slotId": "5", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "6", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "7", "status": "occupied", "vehicleNumber": "ML-03-CC-9012", "ownerName": "Lucas Harris", "date": "2025-12-19", "entryTime": "12:30", "exitTime": "14:30" },
+  { "slotId": "8", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "9", "status": "occupied", "vehicleNumber": "ML-04-DD-3456", "ownerName": "Charlotte Martin", "date": "2025-12-19", "entryTime": "13:00", "exitTime": "15:00" },
+  { "slotId": "10", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "11", "status": "available", "vehicleNumber": "", "ownerName": "", "date": "", "entryTime": "", "exitTime": "" },
+  { "slotId": "12", "status": "occupied", "vehicleNumber": "ML-05-EE-7890", "ownerName": "Henry Clark", "date": "2025-12-20", "entryTime": "14:00", "exitTime": "16:00" }
+]

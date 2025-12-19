@@ -1,0 +1,98 @@
+/* ===================== Parking Form Wrapper ===================== */
+.simpleForm {
+  max-width: 500px;                 /* wider form for desktop */
+  width: 90%;
+  margin: 60px auto;
+  padding: 40px 50px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===================== Form Heading ===================== */
+.simpleForm h1 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* ===================== Labels ===================== */
+.simpleForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 14px;
+}
+
+/* ===================== Inputs ===================== */
+.simpleForm input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #ffffff;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.simpleForm input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.15);
+  outline: none;
+}
+
+/* ===================== Time Row ===================== */
+.timeRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* horizontal layout */
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.timeRow input {
+  margin-bottom: 0;
+}
+
+/* ===================== Submit Button ===================== */
+.simpleForm button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease,
+              transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.simpleForm button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(41, 128, 185, 0.35);
+}
+
+/* ===================== Mobile Responsive ===================== */
+@media (max-width: 768px) {
+  .simpleForm {
+    max-width: 95%;
+    padding: 30px;
+  }
+
+  .simpleForm h1 {
+    font-size: 24px;
+  }
+
+  .timeRow {
+    grid-template-columns: 1fr; /* stack on mobile */
+  }
+}

@@ -1,0 +1,80 @@
+/* General Body Setup */
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e3f2fd; /* mild soft background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form Box */
+.loginBox {
+  background-color: #fff;
+  padding: 30px 38px;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.loginBox h2 {
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Input Fields */
+.loginBox input {
+  width: 100%;
+  padding: 12px 4px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.loginBox input:focus {
+  border-color: #1b357c;
+}
+
+/* Submit Button */
+.btnSubmit {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #1b357c; /* mild green button */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.btnSubmit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Toggle Text */
+.toggleText {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggleText span {
+  color: #002999;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.toggleText span:hover {
+  text-decoration: underline;
+}
