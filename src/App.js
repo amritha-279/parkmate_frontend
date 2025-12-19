@@ -16,9 +16,12 @@ function App() {
     const fetchAllData = async () => {
       try {
         const [townRes, airportRes, mallRes] = await Promise.all([
-          fetch("http://localhost:9000/api/v1/parking/Town"),
-          fetch("http://localhost:9000/api/v1/parking/Airport"),
-          fetch("http://localhost:9000/api/v1/parking/Mall"),
+          fetch("https://parkmate-backend-353z.onrender.com/api/v1/parking/location/Town")
+,
+          fetch("https://parkmate-backend-353z.onrender.com/api/v1/parking/location/Airport")
+,
+          fetch("https://parkmate-backend-353z.onrender.com/api/v1/parking/location/Match")
+,
         ]);
 
         const townJson = await townRes.json();
